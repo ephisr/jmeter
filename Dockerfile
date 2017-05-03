@@ -52,4 +52,5 @@ ENV HOME /home/developer
 
 CMD /opt/jmeter/bin/jmeter.sh
 
-# docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix jmeter
+# docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix mimi50/jmeter
+# docker run -it --rm --name jmeter mimi50/jmeter /bin/bash
