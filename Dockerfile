@@ -5,7 +5,7 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends apt-utils \
 	&& apt-get install jq
 
-ARG jmeter_ver=3.1
+ARG jmeter_ver=3.2
 
 RUN wget http://www.us.apache.org/dist/jmeter/binaries/apache-jmeter-${jmeter_ver}.tgz \
 	&& echo Insalling JMeter version ${jmeter_ver} .. \
