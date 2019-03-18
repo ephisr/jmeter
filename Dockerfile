@@ -9,7 +9,7 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends apt-utils \
 	&& apt-get install -y jq
 
-ARG jmeter_ver=5.0
+ARG jmeter_ver=5.1
 # ARG plugins="jpgc-sense","jpgc-webdriver","jpgc-standard","jpgc-graphs-basic","jpgc-graphs-additional","jpgc-perfmon","jpgc-casutg"
 
 RUN wget http://www.us.apache.org/dist/jmeter/binaries/apache-jmeter-${jmeter_ver}.tgz \
